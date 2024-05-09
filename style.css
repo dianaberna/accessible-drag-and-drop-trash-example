@@ -195,6 +195,7 @@
     [data-drag-act="dragitem"] {
         opacity: 1;
         transition: opacity 0.05s;
+        position: relative;
     }
     [data-drag-act="dragitem"].insertion {
         opacity: 0;
@@ -240,8 +241,8 @@
     display: inline-block;
     height: 0.8rem;
     margin: 0 0.55rem 0 0;
-    position: relative;
-    top: 0.05rem;
+    position: absolute;
+    top: 0.5rem;
     width: 0.8rem;
 }
 [data-drag-act="dragitem"][aria-checked="false"]::before {
